@@ -34,12 +34,13 @@ pnpm install
 ## 🚀 Как установить плагин StreamerMod
 
 ### Шаг 1: Загрузка плагина
-Находясь в папке `Vencord`, перейдите в директорию `src/userplugins` и склонируйте этот репозиторий:
+Находясь в папке `Vencord`, создайте директорию `src/userplugins` (если её нет), перейдите в неё и склонируйте этот репозиторий:
 ```bash
+mkdir src/userplugins
 cd src/userplugins
 git clone https://github.com/ImCloviie/streamermod-vencord.git streamerMod
 ```
-*(Если папки `userplugins` нет, создайте её: `mkdir src/userplugins`)*
+*(Примечание: если при выполнении `mkdir` появится ошибка, что папка уже существует — это нормально, просто продолжайте).*
 
 ### Шаг 2: Сборка Vencord с плагином
 Вернитесь в корень папки `Vencord` и запустите сборку:
