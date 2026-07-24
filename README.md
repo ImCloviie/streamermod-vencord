@@ -2,7 +2,7 @@
 
 Скрывает Discord от захвата экрана (например, в OBS, Discord Go Live, Share Screen или при записи видео). Вы будете видеть интерфейс Discord, но на записи/стриме он будет полностью прозрачным (или черным), как функция "Streamer Mode" в AyuGram.
 
-> **Внимание:** Эта функция работает только с **Windows 10 2004 (build 19041)** и новее, так как использует нативное API Windows `SetWindowDisplayAffinity` с флагом `WDA_EXCLUDEFROMCAPTURE`. Работает только в десктопном приложении Discord (Electron), в браузере работать не будет!
+> **Внимание:** Эта функция работает только в **Windows 10 2004 (build 19041)** и новее, так как использует нативное API Windows `SetWindowDisplayAffinity` с флагом `WDA_EXCLUDEFROMCAPTURE`. Работает только в десктопном приложении Discord (Electron), в браузере работать не будет!
 
 ## Особенности
 - Кнопка-щит в нижней панели пользователя для быстрого включения/выключения.
@@ -37,7 +37,7 @@ pnpm install
 Находясь в папке `Vencord`, перейдите в директорию `src/userplugins` и склонируйте этот репозиторий:
 ```bash
 cd src/userplugins
-git clone https://github.com/ImCloviie/StreamerMod.git streamerMod
+git clone https://github.com/ImCloviie/streamermod-vencord.git streamerMod
 ```
 *(Если папки `userplugins` нет, создайте её: `mkdir src/userplugins`)*
 
